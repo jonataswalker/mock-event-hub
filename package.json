@@ -1,6 +1,6 @@
 {
   "name": "mock-event-hub",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "Jonatas Walker",
   "keywords": [
     "eventhub",
@@ -34,17 +34,17 @@
   ],
   "homepage": "https://github.com/jonataswalker/mock-event-hub/README.md",
   "devDependencies": {
-    "@types/node": "^12.0.0",
-    "dotenv": "^8.2.0",
-    "eslint": "^8.0.0",
-    "prettier": "^2.5.1",
-    "rimraf": "^3.0.0",
-    "typescript": "~4.6.0"
+    "@types/node": "^18.11.5",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.26.0",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "typescript": "~4.8.4"
   },
   "dependencies": {
-    "@azure/abort-controller": "^1.0.0",
-    "rhea": "^2.0.3",
-    "tslib": "^2.2.0"
+    "@azure/abort-controller": "^1.1.0",
+    "rhea": "^3.0.1",
+    "tslib": "^2.4.0"
   },
   "//sampleConfiguration": {
     "skip": [
