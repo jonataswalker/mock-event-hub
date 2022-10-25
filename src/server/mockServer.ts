@@ -20,6 +20,10 @@ import { convertBufferToMessages } from "../utils/convertBufferToMessage";
 
 export interface MockServerOptions {
   /**
+   * Event Hub name
+   */
+  name?: string;
+  /**
    * The port number the server should listen on.
    * If not specified, an open port will be chosen at random.
    */

@@ -1,7 +1,12 @@
 /// <reference types="node" />
+/// <reference types="node" />
 import { ConnectionError, EventContext, Message, Receiver, Sender } from "rhea";
 import { EventEmitter } from "events";
 export interface MockServerOptions {
+    /**
+     * Event Hub name
+     */
+    name?: string;
     /**
      * The port number the server should listen on.
      * If not specified, an open port will be chosen at random.
