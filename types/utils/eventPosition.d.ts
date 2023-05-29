@@ -1,4 +1,4 @@
-export declare type EventPosition = EnqueuedTimeEventPosition | OffsetEventPosition | SequenceNumberEventPosition;
+export type EventPosition = EnqueuedTimeEventPosition | OffsetEventPosition | SequenceNumberEventPosition;
 export interface BaseEventPosition {
     type: string;
     operator: ">" | ">=";
